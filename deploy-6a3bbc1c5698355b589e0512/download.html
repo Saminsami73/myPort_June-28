@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Download — Samin Portfolio</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      background: #0a0a0a;
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .card {
+      background: #111;
+      border: 1px solid #222;
+      border-radius: 16px;
+      padding: 48px 56px;
+      text-align: center;
+      max-width: 480px;
+      width: 90%;
+    }
+    h1 { font-size: 1.5rem; font-weight: 400; margin-bottom: 8px; }
+    p  { font-size: 0.9rem; color: #888; margin-bottom: 32px; line-height: 1.6; }
+    a.btn {
+      display: inline-block;
+      background: #fff;
+      color: #000;
+      padding: 14px 32px;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-weight: 500;
+      text-decoration: none;
+      transition: opacity 0.2s;
+    }
+    a.btn:hover { opacity: 0.85; }
+    .meta { margin-top: 20px; font-size: 0.75rem; color: #555; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Netlify Deploy Package</h1>
+    <p>Your portfolio with all CV updates and Zack.mp3 audio is ready.<br>Click below to download the zip.</p>
+    <a class="btn" href="/samin-portfolio-netlify.zip" download="samin-portfolio-netlify.zip">
+      Download ZIP (20.5 MB)
+    </a>
+    <div class="meta">samin-portfolio-netlify.zip &nbsp;·&nbsp; 76 files &nbsp;·&nbsp; Netlify-ready</div>
+    <div class="meta" style="margin-top:8px;">Drag &amp; drop this zip directly at netlify.com/drop</div>
+  </div>
+</body>
+</html>
